@@ -1,9 +1,10 @@
 # DAUP_CSV : DATA SET PROTEIN
 --> Data set taken from kaggle from https://www.kaggle.com/datasets/gallo33henrique/bioinformatics-protein-dataset-simulated 
 In the project the foolowing things are done:
-Data reading is performed to load the dataset.
 
-Data exploration is conducted to understand the structure and contents of the data.
+--> Data reading is performed to load the dataset.
+
+--> Data exploration is conducted to understand the structure and contents of the data.
 
 Data visualization is done using scatter plots, histograms, and box plots to identify patterns and distributions.
 
