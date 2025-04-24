@@ -14,7 +14,7 @@ In the project the foolowing things are done:
 
 * *Data preprocessing is applied to clean and prepare the data.*
 
-* *Support Vector Machine (SVM) and other models are trained on the preprocessed data.*
+* *SVM , lLGBMClassifier and Random forest are trained on the preprocessed data.*
 
 * *Classification report and confusion matrix are printed to evaluate the initial model performance.*
 
@@ -27,6 +27,10 @@ In the project the foolowing things are done:
 * *The new data is preprocessed again, and the same models are retrained.*
 
 * *Updated classification report and confusion matrix are printed after retraining.*
+
+*  *Skewness and kurtosis values are printed.*
+
+*  *Statistical tests are done.*
 
 After removing outliers and applying SMOTE, the retrained models show an increase in accuracy, F1 score, precision, recall, and support.
 
