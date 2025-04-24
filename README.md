@@ -1,6 +1,5 @@
 # DAUP_CSV : DATA SET PROTEIN
 --> Data set taken from kaggle from https://www.kaggle.com/datasets/gallo33henrique/bioinformatics-protein-dataset-simulated 
-In the project the foolowing things are done:
 
 ## Project Workflow
 
@@ -14,7 +13,7 @@ In the project the foolowing things are done:
 
 * *Data preprocessing is applied to clean and prepare the data.*
 
-* *SVM , lLGBMClassifier and Random forest are trained on the preprocessed data.*
+* *SVM , LGBMClassifier and Random forest are trained on the preprocessed data.*
 
 * *Classification report and confusion matrix are printed to evaluate the initial model performance.*
 
@@ -36,3 +35,12 @@ After removing outliers and applying SMOTE, the retrained models show an increas
 
 
 # DAUP_IMAGE : DATA SET FASHION
+--> From kaggle different datasets are takena nd this dataset is made. Some classes in the dataset are taken from https://www.kaggle.com/datasets/abeerelmorshedy/fashion-clothes and some from https://www.kaggle.com/datasets/ryanbadai/clothes-dataset 
+
+## Project Workflow
+
+# DAUP_AUDIO : DATA SET INDIAN LANGUAGES
+--> Data set taken from kaggle from https://www.kaggle.com/datasets/hmsolanki/indian-languages-audio-dataset and size is reduced.
+
+## Project Workflow
+
