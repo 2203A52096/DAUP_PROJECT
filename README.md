@@ -2,27 +2,33 @@
 --> Data set taken from kaggle from https://www.kaggle.com/datasets/gallo33henrique/bioinformatics-protein-dataset-simulated 
 In the project the foolowing things are done:
 
---> Data reading is performed to load the dataset.
+## Project Workflow
 
---> Data exploration is conducted to understand the structure and contents of the data.
+* *Data reading is performed to load the dataset.*
 
-Data visualization is done using scatter plots, histograms, and box plots to identify patterns and distributions.
+* *Data exploration is conducted to understand the structure and contents of the data.*
 
-Target and features are selected for model training.
+* *Data visualization is done using scatter plots, histograms, and box plots to identify patterns and distributions.*
 
-Data preprocessing is applied to clean and prepare the data.
+* *Target and features are selected for model training.*
 
-Support Vector Machine (SVM) and other models are trained on the preprocessed data.
+* *Data preprocessing is applied to clean and prepare the data.*
 
-Classification report and confusion matrix are printed to evaluate the initial model performance.
+* *Support Vector Machine (SVM) and other models are trained on the preprocessed data.*
 
-Classes with very few data points are addressed, and outliers are removed to improve data quality.
+* *Classification report and confusion matrix are printed to evaluate the initial model performance.*
 
-SMOTE (Synthetic Minority Over-sampling Technique) is applied to handle class imbalance.
+* *Classes with very few data points are fixed, and outliers are removed to improve data quality.*
 
-The new data is preprocessed again, and the same models are retrained.
+* *In Classes with very few data points duplicate rows are addded i.e., oversampling is done.*
 
-Updated classification report and confusion matrix are printed after retraining.
-After removing outliers and applying SOMTE and then trained models showm increase in accuracy, f1 scre, precision, recall and support
+* *SMOTE (Synthetic Minority Over-sampling Technique) is applied to handle class imbalance.*
+
+* *The new data is preprocessed again, and the same models are retrained.*
+
+* *Updated classification report and confusion matrix are printed after retraining.*
+
+After removing outliers and applying SMOTE, the retrained models show an increase in accuracy, F1 score, precision, recall, and support.
+
 
 # DAUP_IMAGE : DATA SET FASHION
