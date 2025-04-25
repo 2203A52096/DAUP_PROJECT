@@ -36,7 +36,7 @@ After removing outliers and applying SMOTE, the retrained models show an increas
 Random forest model works best.
 
 # DAUP_IMAGE : DATA SET FASHION
---> From kaggle different datasets are takena nd this dataset is made. Some classes in the dataset are taken from https://www.kaggle.com/datasets/abeerelmorshedy/fashion-clothes and some from https://www.kaggle.com/datasets/ryanbadai/clothes-dataset 
+--> From kaggle different datasets are taken and this dataset is made. Some classes in the dataset are taken from https://www.kaggle.com/datasets/abeerelmorshedy/fashion-clothes and some from https://www.kaggle.com/datasets/ryanbadai/clothes-dataset 
 
 ## Project Workflow
 
